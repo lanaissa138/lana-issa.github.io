@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+  	background-color: #F4C2C2;
+  	padding-top: 250px;
+}
+
+header {
+	background-color: white;
+  	padding: 30px;
+	text-align: right;
+  	position: fixed;
+  	width: 96%;
+  	top: 0;
+}
+
+header .logo {
+  	width: 100px;
+	height: 100px;
+  	float: left;
+}
+
+nav a {
+  	color: #535353;
+  	text-decoration: none;
+  	font-size: 20px;
+  	font-family: Tahoma;
+  	padding: 20px;
+	line-height: 70px;
+}
+
+nav a:hover {
+  	color: #F4C2C2;
+}
+
+nav li {
+  	display: inline;
+}
+     
+section {
+  	padding: 50px;
+  	padding-bottom: 250px;
+}
+
+footer {
+  	background-color: black;
+  	padding: 100px;
+  	padding-top: 20px;
+	padding-bottom: 20px;
+  	color: white;
+  	text-align: center;
+  	bottom: 0;
+  	font: 18px Tahoma;
+}
+
+footer #sm-btn {
+	border: none; 
+	background-color: black;
+}
+
+footer #sm-img {
+	width: 50px;
+}
+
+@media screen and (max-width: 745px) {
+  	nav a
+  	{
+    		font-size: 12px;
+    		padding: 10px;
+  	}
+
+  	header {
+    		width: 93%;
+  	}
+
+	footer {
+		font-size: 15px;
+	}
+}
+

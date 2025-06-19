@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="Styles.css">
+		<style>
+
+		/* An internal stylesheet for the section of the Home page*/
+			
+			section .profile {
+				display: flex;
+				align-items: center;
+				
+			}
+
+			section #profile-img {
+				width: 20%;
+				height: auto;
+				border-radius: 50%;
+				border: 10px solid white;
+				margin-right: 150px;
+				margin-left: 250px;
+			}
+
+			section h1 {
+				font-family: Sans-Serif;
+				font-size: 35px;
+			}
+
+			section p {	
+				text-align: center;
+				font-family: Verdana;
+				font-size: 25px;
+			}
+
+			@media screen and (max-width: 1150px) {
+				section #profile-img {
+					margin-right: 100px;
+					margin-left: 100px;
+				}
+			}
+
+			@media screen and (max-width: 745px) {
+				section #profile-img {
+					margin-right: 40px;
+					margin-left: 40px;
+				}
+			
+				section h1 {
+					font-size: 15px;
+				}
+			
+				section p {
+					font-size: 15px;
+				}
+			}
+	
+			
+		</style>
+	</head>
+  
+	<body>
+	
+		<header> 
+			<img src="logo.png" class="logo" alt="Logo">
+      
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li> 
+					<li><a href="resume.html">Resume</a></li> 
+					<li><a href="projects.html">Projects</a></li> 
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul> 
+			</nav>
+		</header>
+    
+		<section>
+			<div class="profile">
+				<img src="profile.png" id="profile-img" alt="Picture of Lana">
+				<h1>Hi, I'm Lana Issa! <br> Welcome to My Personal Portfolio!</h1>
+			</div>
+
+			<br><br><br>
+
+			<p><b>University Student | Web Developer | Designer</b></p>
+			<p>I am very passionate about building clean, responsive designs that showcases unique, creative designs and user-friendly experiences.</p>
+		</section>
+    
+		<footer>
+			<p>
+  				<a href="mailto:lanaissa@my.yorku.ca" style="color: #46a2da; text-decoration: none;">lanaissa@my.yorku.ca</a>
+				|
+				<a href="tel:+123456789" style="color: #46a2da; text-decoration: none;"> (123) 456-7890</a>
+
+			</p>
+ 			
+			<br>
+
+			<button onclick="window.location.href='https://www.instagram.com/';" id="sm-btn">
+				<img src="instagram-icon.png" id="sm-img" alt="Icon Link to Instagram">
+			</button>
+
+			<button onclick="window.location.href='https://ca.linkedin.com/';" id="sm-btn">
+				<img src="LinkedIn-icon.png" id="sm-img" alt="Icon Link to LinkedIn">
+			</button>
+
+			<br><br>
+
+			<p>© 2025 Lana Issa. All Rights Reserved.</p>
+    
+		</footer> 
+	</body>
+</html>

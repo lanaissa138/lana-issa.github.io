@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Projects</title>
+		<link rel="stylesheet" href="Styles.css">
+		<style>
+
+			section h1 {
+				font-family: Cursive;
+				font-size: 50px;
+				text-align: center;
+			}
+
+			.project-grid {
+  				display: grid;
+  				grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  				gap: 30px;
+  				padding: 30px;
+  				max-width: 1200px;
+  				margin: 0 auto;
+			}
+
+			.project-box {
+  				background-color: white;
+  				border-radius: 10px;
+  				padding: 20px;
+  				text-align: center;
+				font-family: Verdana;
+			}
+
+	
+			.project-box img {
+  				width: 100%;
+  				height: auto;
+  				border-radius: 5px;
+			}
+
+			.project-box h3 {
+  				margin-top: 10px;
+  				font-size: 30px;
+  				color: #333;
+			}
+
+			.project-box p {
+  				font-size: 15px;
+  				color: #666;
+			}
+
+			.project-box a {
+  				color: #46a2da;
+  				text-decoration: none;
+  				font-weight: bold;
+			}
+
+			.project-box a:hover {
+  				text-decoration: underline;
+			}
+
+		</style>
+	</head>
+  
+	<body>
+		<header>
+			<img src="logo.png" class="logo" alt="Logo">
+      
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li> 
+					<li><a href="resume.html">Resume</a></li> 
+					<li><a href="projects.html">Projects</a></li> 
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul> 
+			</nav>
+		</header>
+    
+		<section>
+			
+			<h1>My Projects</h1>
+
+			<div class="project-grid">
+
+  				<div class="project-box">
+    					<img src="project1.png" alt="Project 1 Screenshot">
+    					<h3>Project One</h3>
+    					<p>A colourful website for a unique cupcake bakery made with HTML, CSS, and JavaScript.</p>
+    					<a href="https://live-demo-project1.com">Live Demo</a> 
+ 				</div>
+
+    				<div class="project-box">
+    					<img src="project2.png" alt="Project 2 Screenshot">
+    					<h3>Project Two</h3>
+    					<p>A visually rich website for a Middle Eastern baklava dessert shop.</p>
+   	 				<a href="https://live-demo-project2.com">Live Demo</a> 
+  				</div>
+
+  
+  				<div class="project-box">
+   		 			<img src="project3.png" alt="Project 3 Screenshot">
+    					<h3>Project Three</h3>
+    					<p>A visually delicious website for a Lebanese breakfast cuisine restaurant.</p>
+    					<a href="https://lanaissa138.wixsite.com/restaurant">Live Demo</a> 
+  				</div>
+
+ 
+  				<div class="project-box">
+   	 				<img src="project4.png" alt="Project 4 Screenshot">
+    					<h3>Project Four</h3>
+    					<p>A calming wellness blog homepage promoting mindfulness, nature, and self-care.</p>
+    					<a href="https://live-demo-project4.com">Live Demo</a> 
+  				</div>
+			</div>
+
+		</section>
+    
+		<footer>
+			<p>
+  				<a href="mailto:lanaissa@my.yorku.ca" style="color: #46a2da; text-decoration: none;">lanaissa@my.yorku.ca</a>
+				|
+				<a href="tel:+123456789" style="color: #46a2da; text-decoration: none;"> (123) 456-7890</a>
+
+			</p>
+ 			
+			<br>
+
+			<button onclick="window.location.href='https://www.instagram.com/';" id="sm-btn">
+				<img src="instagram-icon.png" id="sm-img" alt="Icon Link to Instagram">
+			</button>
+
+			<button onclick="window.location.href='https://ca.linkedin.com/';" id="sm-btn">
+				<img src="LinkedIn-icon.png" id="sm-img" alt="Icon Link to LinkedIn">
+			</button>
+
+			<br><br>
+
+			<p>© 2025 Lana Issa. All Rights Reserved.</p>
+    
+		</footer> 
+	</body>
+</html>
