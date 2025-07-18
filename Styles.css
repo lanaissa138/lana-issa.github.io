@@ -1,7 +1,7 @@
 body {
 	margin: 0;
   	background-color: #F4C2C2;
-  	padding-top: 250px;
+  	padding-top: 100px;
 }
 
 header {
@@ -78,11 +78,10 @@ footer #sm-img {
 }
 
 .toggle-container {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 15px;
-	margin-top: 20px;
+	margin-top: 200px;
 	margin-bottom: 10px;
 }
 
