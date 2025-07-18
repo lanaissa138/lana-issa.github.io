@@ -66,8 +66,7 @@
 		<script>
 			fetch('header.html')
 			.then(x => x.text())
-			.then(y => document.getElementById("header").innerHTML = y);
-			
+			.then(y => document.getElementById("header").innerHTML = y);	
 		</script>
     
 		<section>
@@ -106,31 +105,13 @@
     					<a href="https://live-demo-project4.com">Live Demo</a> 
   				</div>
 			</div>
-
 		</section>
     
-		<footer>
-			<p>
-  				<a href="mailto:lanaissa@my.yorku.ca" style="color: #46a2da; text-decoration: none;">lanaissa@my.yorku.ca</a>
-				|
-				<a href="tel:+123456789" style="color: #46a2da; text-decoration: none;"> (123) 456-7890</a>
-
-			</p>
- 			
-			<br>
-
-			<button onclick="window.location.href='https://www.instagram.com/';" id="sm-btn">
-				<img src="instagram-icon.png" id="sm-img" alt="Icon Link to Instagram">
-			</button>
-
-			<button onclick="window.location.href='https://ca.linkedin.com/';" id="sm-btn">
-				<img src="LinkedIn-icon.png" id="sm-img" alt="Icon Link to LinkedIn">
-			</button>
-
-			<br><br>
-
-			<p>© 2025 Lana Issa. All Rights Reserved.</p>
-    
-		</footer> 
+		<div id="footer"></div>
+		<script>
+			fetch('footer.html')
+			.then(x => x.text())
+			.then(y => document.getElementById("footer").innerHTML = y);
+		</script>
 	</body>
 </html>
