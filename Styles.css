@@ -9,6 +9,7 @@ header {
   	padding: 30px;
 	text-align: right;
   	position: fixed;
+	z-align: 1000;
   	width: 96%;
   	top: 0;
 }
