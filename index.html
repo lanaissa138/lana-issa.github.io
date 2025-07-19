@@ -81,15 +81,14 @@
 			<script>
 				const toggle = document.getElementById('mode-toggle');
     				const modeText = document.getElementById('mode-text');
-    				const body = document.body;
 
 				toggle.addEventListener('change', () => {
       					if (toggle.checked) {
-        					body.classList.add('dark-mode');
+        					document.body.classList.add('dark-mode');
        						modeText.textContent = 'Dark Mode';
       					} 
 					else {
-        					body.classList.remove('dark-mode');
+        					document.body.classList.remove('dark-mode');
         					modeText.textContent = 'Light Mode';
       					}
    			 	});
