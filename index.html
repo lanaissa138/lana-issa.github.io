@@ -71,12 +71,29 @@
     
 		<section>
 			<div class="toggle-container">
-				<h3>Light Mode</h3>
+				<h3 id="mode-text">Light Mode</h3>
 				<label class="switch">
-  					<input type="checkbox">
+  					<input type="checkbox" id="mode-toggle">
   					<span class="slider round"></span>
 				</label>
 			</div>
+
+			<script>
+				const toggle = document.getElementById('mode-toggle');
+    				const modeText = document.getElementById('mode-text');
+    				const body = document.body;
+
+				toggle.addEventListener('change', () => {
+      					if (toggle.checked) {
+        					body.classList.add('dark-mode');
+       						modeText.textContent = 'Dark Mode';
+      					} 
+					else {
+        					body.classList.remove('dark-mode');
+        					modeText.textContent = 'Light Mode';
+      					}
+   			 	});
+			</script>
 			
 			<div class="profile">
 				<img src="profile.png" id="profile-img" alt="Picture of Lana">
