@@ -135,6 +135,11 @@ input:checked + .slider:before {
 .slider.round:before {
 	border-radius: 50%;
 }
- 
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+
 
 
