@@ -122,6 +122,7 @@ footer #sm-img {
 
 input:checked + .slider {
 	background-color: black;
+	outline: 2px solid white;
 }
 
 input:checked + .slider:before {
