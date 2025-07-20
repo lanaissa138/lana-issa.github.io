@@ -7,7 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
       posts.forEach(post => {
         const postElement = document.createElement('div');
         postElement.classList.add('blog-post');
-      
+          <h2>${post.title}</h2>
+          <p><em>${post.date}</em></p>
+          <p>${post.content}</p>
+        ;
+
+        blogList.appendChild(postElement);
       });
     })
   .catch(error => console.error('Error loading blog posts:', error));
