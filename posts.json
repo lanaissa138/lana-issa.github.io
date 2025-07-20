@@ -7,6 +7,6 @@
   {
     "title": "Creating a Dynamic Blog Section",
     "date": "2025-07-20",
-    "content": "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "content": "To create a dynamic blog section, I first started by making a JSON file called posts.json that contains all the blog post info such as title, date, and content. Then, I added the <div> element with the id called blog-list in the blog.html file which becomes a container for all the posts. The next step was making a JS file called scripts.js where I used JavaScript to fetch the JSON file and loop through. For each posts, I added a <div> element using the document.createElement and set its inner HTML with the title, date, content, and appended it to the blog-list container. I added a box container inside each post by styling them using CSS. At first when running the files, the posts werent appearing until I realized I forgot to link scripts.js file to the blog.html file and I linked them using the script tag."
   }
 ]
